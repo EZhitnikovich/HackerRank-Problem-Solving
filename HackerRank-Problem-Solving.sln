@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleArraySum", "SimpleArraySum\SimpleArraySum.csproj", "{DE2F6FD8-0567-4B14-B276-69125C910272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTheTriplets", "CompareTheTriplets\CompareTheTriplets.csproj", "{9F6459A6-4670-4BDD-915D-18A487A21D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE2F6FD8-0567-4B14-B276-69125C910272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2F6FD8-0567-4B14-B276-69125C910272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2F6FD8-0567-4B14-B276-69125C910272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
