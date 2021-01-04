@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleArraySum", "SimpleArr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTheTriplets", "CompareTheTriplets\CompareTheTriplets.csproj", "{9F6459A6-4670-4BDD-915D-18A487A21D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVeryBigSum", "AVeryBigSum\AVeryBigSum.csproj", "{2EAE6A02-2A1E-45D5-8910-B8EC26798E84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6459A6-4670-4BDD-915D-18A487A21D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAE6A02-2A1E-45D5-8910-B8EC26798E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAE6A02-2A1E-45D5-8910-B8EC26798E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAE6A02-2A1E-45D5-8910-B8EC26798E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAE6A02-2A1E-45D5-8910-B8EC26798E84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
