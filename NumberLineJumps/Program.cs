@@ -12,6 +12,28 @@ namespace NumberLineJumps
             int v1 = Convert.ToInt32(x1V1X2V2[1]);
             int x2 = Convert.ToInt32(x1V1X2V2[2]);
             int v2 = Convert.ToInt32(x1V1X2V2[3]);
+            string result = kangaroo(x1, v1, x2, v2);
+            Console.WriteLine(result);
+        }
+
+        static string kangaroo(int x1, int v1, int x2, int v2)
+        {
+            string result = "NO";
+
+            if ((x1 > x2 && v1 > v2) || (x1 < x2 && v1 < v2))
+            {
+                result = "NO";
+            }
+            else if(v1==v2)
+            {
+                result = "NO";
+            }
+            else if(Math.Abs(x2-x1)%Math.Abs(v1-v2) == 0)
+            {
+                result = "YES";
+            }
+
+            return result;
         }
     }
 }
