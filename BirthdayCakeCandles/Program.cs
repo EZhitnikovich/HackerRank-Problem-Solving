@@ -15,7 +15,7 @@ namespace BirthdayCakeCandles
 
         static long CountMax(IEnumerable<int> number)
         {
-            int maxValue = number.First();
+            int maxValue = int.MinValue;
             int count = 0;
             foreach (int item in number)
             {
